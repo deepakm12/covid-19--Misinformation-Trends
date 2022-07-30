@@ -1,3 +1,5 @@
+#parsing metadata receivied by twitter api 
+
 import tweepy
 import json
 import math
