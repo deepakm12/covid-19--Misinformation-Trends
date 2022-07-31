@@ -32,6 +32,7 @@ ccf(fear_tc['stringency_index'], fear_tc['fear'])
 library(tseries)
 adf.test(fear_tc$stringency_index)
 
+#test befor plotting
 adf.test(fear_tc$fear)
 plot(fear_tc$new_cases)
 plot(fear_tc$fear)
